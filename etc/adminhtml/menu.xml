@@ -1,17 +1,1 @@
-<?xml version="1.0"?>
 
-<!-- This XML is used to add a menu item to our Magento Admin Backend Settings Page -->
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-		xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
-    <menu>
-    	<!-- Adding a SAML 2.0 SP menu item in admin backend for access to other sub settings -->
-        <add id="MiniOrange_SP::SP" 
-        	 title="SAML 2.0 SP" 
-        	 module="MiniOrange_SP" 
-        	 sortOrder="52" 
-        	 resource="MiniOrange_SP::SP" />
-
-			
-		
-    </menu>
-</config>
