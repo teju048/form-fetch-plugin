@@ -5,7 +5,7 @@
     <add
         id="MiniOrange_FormFetch::FormFetch"
         title="Form Fetch Plugin"
-        module="MiniOrange_Form_Fetch"
+        module="MiniOrange_FormFetch"
         sortOrder="52"
         resource="MiniOrange_FormFetch::FormFetch"
     />
