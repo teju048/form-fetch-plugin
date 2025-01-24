@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<menu xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
     <add
         id="MiniOrange_Form_Fetch::FormFetch"
         title="Form Fetch Plugin"
@@ -8,3 +10,4 @@
         resource="MiniOrange_Form_Fetch::FormFetch"
     />
 </menu>
+</config>
