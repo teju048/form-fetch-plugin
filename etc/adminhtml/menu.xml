@@ -3,11 +3,11 @@
 		xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
     <menu>
     <add
-        id="MiniOrange_Form_Fetch::FormFetch"
+        id="MiniOrange_FormFetch::FormFetch"
         title="Form Fetch Plugin"
         module="MiniOrange_Form_Fetch"
         sortOrder="52"
-        resource="MiniOrange_Form_Fetch::FormFetch"
+        resource="MiniOrange_FormFetch::FormFetch"
     />
 </menu>
 </config>
