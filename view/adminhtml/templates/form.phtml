@@ -1,0 +1,8 @@
+<!-- app/code/Vendor/Module/view/adminhtml/templates/form.phtml -->
+<h3>My Plugin Form</h3>
+
+<form method="post" action="<?= $block->getUrl('MiniOrange_Form_Fetch/form/index') ?>">
+    <label for="form_data">Enter Data:</label>
+    <input type="text" name="form_data" id="form_data" required>
+    <button type="submit">Submit</button>
+</form>
