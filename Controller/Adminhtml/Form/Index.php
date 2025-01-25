@@ -1,15 +1,23 @@
 <?php
 
-namespace Vendor\Module\Controller\Adminhtml\Form;
+namespace MiniorangeInc\FormFetchPlugin\Controller\Adminhtml\Form;
 
 use Magento\Backend\App\Action;
-use Magento\Backend\Model\View\Result\PageFactory;
+use Magento\Framework\View\Result\PageFactory;
 
 class Index extends Action
 {
+    /**
+     * @var PageFactory
+     */
     protected $resultPageFactory;
 
-    // Constructor to inject dependencies
+    /**
+     * Constructor
+     *
+     * @param Action\Context $context
+     * @param PageFactory $resultPageFactory
+     */
     public function __construct(
         Action\Context $context,
         PageFactory $resultPageFactory
@@ -18,16 +26,15 @@ class Index extends Action
         $this->resultPageFactory = $resultPageFactory;
     }
 
-    // Execute the controller action to show the form
+    /**
+     * Execute action
+     *
+     * @return \Magento\Framework\View\Result\Page
+     */
     public function execute()
     {
         $resultPage = $this->resultPageFactory->create();
+        $resultPage->getConfig()->getTitle()->prepend(__('Form Fetch Plugin'));
         return $resultPage;
-    }
-
-    // Check if user is allowed to access this page
-    protected function _isAllowed()
-    {
-        return $this->_authorization->isAllowed('Vendor_Module::form_menu'); // Replace with your menu path
     }
 }
