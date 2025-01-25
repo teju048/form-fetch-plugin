@@ -4,6 +4,6 @@ use Magento\Framework\Component\ComponentRegistrar;
 
 ComponentRegistrar::register(
     ComponentRegistrar::MODULE,
-    'MiniorangeInc_FormFetchPlugin',
+    'Custom_FormFetchPlugin',
     __DIR__
 );
