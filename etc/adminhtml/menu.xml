@@ -4,8 +4,7 @@
         <add id="Custom_FormFetchPlugin::formfetch"
              title="Form Fetch Plugin"
              module="Custom_FormFetchPlugin"
-             sortOrder="100"
-             parent="Magento_Backend::content"
+             sortOrder="52"
              resource="Custom_FormFetchPlugin::formfetch" />
     </menu>
 </config>
