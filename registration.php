@@ -1,13 +1,9 @@
 <?php
- 
- /**
-  * The code below is used to register the
-  * OAuth extension/component with the Mangeto
-  * core Module. It specifies the root directory
-  * of the plugin.
-  */
-\Magento\Framework\Component\ComponentRegistrar::register(
-    \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'FormFetch',
+
+use Magento\Framework\Component\ComponentRegistrar;
+
+ComponentRegistrar::register(
+    ComponentRegistrar::MODULE,
+    'MiniorangeInc_FormFetchPlugin',
     __DIR__
 );
