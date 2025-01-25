@@ -1,4 +1,4 @@
-<!--  This file defines our module  -->
+<?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
-<module name="MiniOrange_FormFetch" setup_version="1.0.0"/>
+    <module name="MiniorangeInc_FormFetchPlugin" setup_version="1.0.0" />
 </config>
