@@ -1,5 +1,5 @@
 {
-    "name": "miniorange_inc/form-fetch-plugin",
+    "name": "custom/form-fetch-plugin",
     "description": "This is a form Fetching Plugin.",
     
 
@@ -11,12 +11,12 @@
      "autoload": {
         "files": [ "registration.php" ],
         "psr-4": {
-            "MiniOrangeInc\\FormFetchPlugin\\": ""
+            "Custom\\FormFetchPlugin\\": ""
         }
     },
     "authors": [
         {
-            "name": "Tejswini",
+            "name": "Tejaswini",
             "homepage": "https://www.miniorange.com/",
             "email": "formsupport@xecurify.com"
         }
