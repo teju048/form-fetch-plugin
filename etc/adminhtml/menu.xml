@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Menu/etc/menu.xsd">
     <menu>
-        <add id="MiniorangeInc_FormFetchPlugin::formfetch"
+        <add id="Custom_FormFetchPlugin::formfetch"
              title="Form Fetch Plugin"
-             module="MiniorangeInc_FormFetchPlugin"
+             module="Custom_FormFetchPlugin"
              sortOrder="100"
              parent="Magento_Backend::content"
-             resource="MiniorangeInc_FormFetchPlugin::formfetch" />
+             resource="Custom_FormFetchPlugin::formfetch" />
     </menu>
 </config>
