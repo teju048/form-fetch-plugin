@@ -1,0 +1,5 @@
+<type name="Custom\FormFetchPlugin\Model\FormData">
+    <arguments>
+        <argument name="resourceModel" xsi:type="string">Custom\FormFetchPlugin\Model\ResourceModel\FormData</argument>
+    </arguments>
+</type>
